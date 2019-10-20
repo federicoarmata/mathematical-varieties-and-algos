@@ -61,6 +61,12 @@ for (i from n+1 to m)
 
 Problem: Write 3 sorting algorithms to sort n distinct values A_1, A_2, ..., A_n and analyse the complexity of each algo.
 
+Solution:
+
+1) Insertion sort
+2) Merge sort
+3) Quick sort
+
 
 
 
