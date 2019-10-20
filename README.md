@@ -25,12 +25,20 @@ Generate pi (checked until the 1000-th decimal digit) with 2 different series:
        
 2) using a variation of the Bailey–Borwein–Plouffe formula found by F. Bellard.
    See http://mathworld.wolfram.com/PiFormulas.html for more details.
-  
+ 
+### Number swap
+
+`python number_swap.py`
+
+Problem: How do you swap 2 integers, i and j, without using additional storage space?
+
+Solution: Store the sum of i and j (i = i+j), change j to i's value (j = i-j), change i to j's value.
+
 ### Unique elements 
 
 `python unique_elements.py`
 
-Given a sorted array, write a function to extract the unique elements. 
+Problem: Given a sorted array, write a function to extract the unique elements. 
 Example: [1, 1, 3, 3, 3, 5, 5, 5, 9, 9, 9, 9], should return [1, 3, 5, 9].
 
 ### Horner's algorithm
@@ -66,9 +74,3 @@ Solution:
 1) Insertion sort
 2) Merge sort
 3) Quick sort
-
-
-
-
-
-
