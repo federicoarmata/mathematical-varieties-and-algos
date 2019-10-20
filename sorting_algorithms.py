@@ -70,8 +70,6 @@ def merge_sorted_lists(list_left, list_right):
         return list_right
     elif len(list_right) == 0:
         return list_left
-
-    print(list_left, list_right)
     
     # General case
     index_left = index_right = 0
@@ -95,10 +93,7 @@ def merge_sorted_lists(list_left, list_right):
         elif index_left == len(list_left):
             # Reached the end of left
             # Append the remainder of right and break
-            print(index_right)
-            print(list_right[index_right:])
             list_merged += list_right[index_right:]
-            print(list_merged)
             break
         
     return list_merged
@@ -157,6 +152,16 @@ def quick_sort(input_array):
         # you only have one element in your array, just 
         # return the array.
         return input_array
+
+
+if __name__ == '__main__':
+
+    A = [-1, 4, 1, 0, 5, 3]
+
+    print("insertion:", insertion_sort(A))
+    print("merge:", merge_sort(A))
+    print("quick:", quick_sort(A))
+
 
 
 
