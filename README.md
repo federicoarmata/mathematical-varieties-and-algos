@@ -1,4 +1,4 @@
-# mathematical_varieties
+# mathematical_varieties_and_algos
 interesting series, numbers and numerical challenges etc...
 
 ### Fibonacci Sequence
